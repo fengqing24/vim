@@ -50,9 +50,9 @@ nnoremap <leader>h :call BundlesInit()<CR>
 
 "syntastic配置
     "在打开文件的时候检查
-    let g:syntastic_check_on_open=1
+"    let g:syntastic_check_on_open=1
     "phpcs，tab 4个空格，编码参考使用CodeIgniter风格
-    let g:syntastic_phpcs_conf = "--tab-width=4 --standard=CodeIgniter"
+"    let g:syntastic_phpcs_conf = "--tab-width=4 --standard=CodeIgniter"
 
 "NERDTree配置
     map <F1> :NERDTreeToggle<CR>
